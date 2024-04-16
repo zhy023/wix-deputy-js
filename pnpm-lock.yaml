@@ -13,9 +13,6 @@ dependencies:
     version: 3.0.0(webpack@5.91.0)
 
 devDependencies:
-  '@purtuga/esm-webpack-plugin':
-    specifier: ^1.5.0
-    version: 1.5.0(webpack@5.91.0)
   '@webpack-cli/generators':
     specifier: ^3.0.7
     version: 3.0.7(prettier@3.2.5)(webpack-cli@5.1.4)(webpack@5.91.0)
@@ -797,15 +794,6 @@ packages:
     engines: {node: '>=14'}
     requiresBuild: true
     optional: true
-
-  /@purtuga/esm-webpack-plugin@1.5.0(webpack@5.91.0):
-    resolution: {integrity: sha512-v4kKOCQHqS2H8yjlbJBm6km+4Urd21M0uvO5MAMQ7GmqEf745fkQeB4iiPAVUeXxDbB833i5ctv93WGH4mwQLQ==}
-    peerDependencies:
-      webpack: ^4.0.0
-    dependencies:
-      webpack: 5.91.0(webpack-cli@5.1.4)
-      webpack-sources: 1.4.3
-    dev: true
 
   /@scure/base@1.1.6:
     resolution: {integrity: sha512-ok9AWwhcgYuGG3Zfhyqg+zwl+Wn5uE+dwC0NV/2qQkx4dABbb/bx96vWu8NSj+BNjjSjno+JRYRjle1jV08k3g==}
@@ -6058,10 +6046,6 @@ packages:
     dependencies:
       is-plain-obj: 2.1.0
 
-  /source-list-map@2.0.1:
-    resolution: {integrity: sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==}
-    dev: true
-
   /source-map-support@0.5.21:
     resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
     dependencies:
@@ -6862,13 +6846,6 @@ packages:
       clone-deep: 4.0.1
       flat: 5.0.2
       wildcard: 2.0.1
-
-  /webpack-sources@1.4.3:
-    resolution: {integrity: sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==}
-    dependencies:
-      source-list-map: 2.0.1
-      source-map: 0.6.1
-    dev: true
 
   /webpack-sources@3.2.3:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
