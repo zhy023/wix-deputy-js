@@ -12,12 +12,12 @@ const config = {
     clean: true,
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    library: {
-      type: 'module',
-    },
+    // library: {
+    //   type: 'module',
+    // },
   },
 
-  experiments: { outputModule: true },
+  // experiments: { outputModule: true },
 
   devServer: {
     open: true,
